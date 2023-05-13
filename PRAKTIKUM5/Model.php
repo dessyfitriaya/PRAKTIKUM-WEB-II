@@ -1,8 +1,6 @@
 <?php
     include_once("Koneksi.php");
 
-//-----------CREATE------------
-
     if(isset($_POST['input1'])) {
         mysqli_query($koneksi, "INSERT INTO member SET
         nama_member = '$_POST[nama]',
