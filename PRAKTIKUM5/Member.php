@@ -17,6 +17,16 @@
     <body>
         <table>
             <form action="Model.php" method="post">
+                <tr>
+                    <td>ID Member</td>
+                    <td>Nama</td>
+                    <td>Nomor</td>
+                    <td>Alamat</td>
+                    <td>Tanggal Mendafatar</td>
+                    <td>Tanggal Terakhir Bayar</td>
+                    <td colspan='2'>Perintah</td>
+                </tr>
+                
                 <?php
                     include "koneksi.php";
 
