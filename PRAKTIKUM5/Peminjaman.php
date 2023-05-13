@@ -9,15 +9,21 @@
                 border-collapse: collapse;
                 padding: 10px;
             }
-            table { margin-bottom: 15px; }
-            p {
-                color: red;
+            table { 
+                margin-bottom: 15px; 
             }
         </style>
     </head>
     <body>
         <table>
             <form action="Model.php" method="post">
+                <tr>
+                    <td>ID peminjaman</td>
+                    <td>Tanggal pinjam</td>
+                    <td>Tanggal kembali</td>
+                    <td colspan='2'>Perintah</td>
+                </tr>
+           
                 <?php
                     include "koneksi.php";
 
