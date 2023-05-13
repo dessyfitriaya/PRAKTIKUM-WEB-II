@@ -9,9 +9,8 @@
                 border-collapse: collapse;
                 padding: 10px;
             }
-            table { margin-bottom: 15px; }
-            p {
-                color: red;
+            table { 
+                margin-bottom: 15px; 
             }
         </style>
     </head>
