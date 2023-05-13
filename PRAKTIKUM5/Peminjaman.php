@@ -18,9 +18,9 @@
         <table>
             <form action="Model.php" method="post">
                 <tr>
-                    <td>ID peminjaman</td>
-                    <td>Tanggal pinjam</td>
-                    <td>Tanggal kembali</td>
+                    <td>ID Peminjaman</td>
+                    <td>Tanggal Pinjam</td>
+                    <td>Tanggal Kembali</td>
                     <td colspan='2'>Perintah</td>
                 </tr>
            
