@@ -38,6 +38,6 @@
     }
     else {
         echo "Tindakan gagal dilakukan<br>";
-        echo "<a href='http://localhost/PRAKTIKUM-WEB-II/PRAKTIKUM5/HalamanUtama.php'>Kembali ke Halaman Utama</a>";
+        echo "<a href='HalamanUtama.php'>Kembali ke Halaman Utama</a>";
     }
 ?>
